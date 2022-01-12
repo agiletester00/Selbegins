@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-01T23:01:31 IST" name="Default suite" finished-at="2022-01-01T23:01:42 IST" duration-ms="11084">
+    <groups>
+    </groups>
+    <test started-at="2022-01-01T23:01:31 IST" name="Default test" finished-at="2022-01-01T23:01:42 IST" duration-ms="11084">
+      <class name="com.testngdemos.Testngdem">
+        <test-method signature="MybeforeMethod()[pri:0, instance:com.testngdemos.Testngdem@28f2a10f]" started-at="2022-01-01T23:01:31 IST" name="MybeforeMethod" finished-at="2022-01-01T23:01:34 IST" duration-ms="2398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MybeforeMethod -->
+        <test-method signature="Testngdemoex()[pri:0, instance:com.testngdemos.Testngdem@28f2a10f]" started-at="2022-01-01T23:01:34 IST" name="Testngdemoex" finished-at="2022-01-01T23:01:39 IST" depends-on-methods="com.testngdemos.Testngdem.MybeforeMethod" duration-ms="5201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testngdemoex -->
+        <test-method signature="Testngdemoex2()[pri:0, instance:com.testngdemos.Testngdem@28f2a10f]" started-at="2022-01-01T23:01:39 IST" name="Testngdemoex2" finished-at="2022-01-01T23:01:39 IST" depends-on-methods="com.testngdemos.Testngdem.Testngdemoex" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testngdemoex2 -->
+        <test-method signature="Testngdemoex3()[pri:0, instance:com.testngdemos.Testngdem@28f2a10f]" started-at="2022-01-01T23:01:39 IST" name="Testngdemoex3" finished-at="2022-01-01T23:01:42 IST" depends-on-methods="com.testngdemos.Testngdem.Testngdemoex2" duration-ms="3173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testngdemoex3 -->
+      </class> <!-- com.testngdemos.Testngdem -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
